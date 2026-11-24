@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #141414;
+    color: #eeeeee;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 1px solid #222222;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff7b54;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none; 
+    color: #ffffff;        
+}
+.navbar-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #00d9ff;
+}
+
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(231, 0, 0, 0.6), rgba(0,0,0,0.7)), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic1.dualshockersimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2024%2F12%2Fgrand-theft-auto-6-promo-image.jpg&f=1&nofb=1&ipt=fb04a322a754607d9c0065c32bda675f7146ce6ba87fa765407bd05e38ee5b4b&ipo=images");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #e60073;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #b30059;
+}
+
+.sekce {
+    padding: 80px 10%;
+}
+
+.tmava {
+    background-color: #1c1c1c;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #00d9ff;
+}
+
+.o-hre-obsah {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.text {
+    flex: 2;
+    line-height: 1.6;
+}
+
+.text p {
+    margin-bottom: 15px;
+}
+
+.info-box {
+    flex: 1;
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #e60073;
+}
+
+.info-box ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.info-box li {
+    margin-bottom: 8px;
+}
+
+.karty {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.karta {
+    background-color: #262626;
+    border-radius: 8px;
+    width: 23%;
+    min-width: 220px;
+    overflow: hidden;
+}
+
+.karta img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    display: block;
+}
+
+.karta-obsah {
+    padding: 15px;
+}
+
+.karta-obsah h3 {
+    margin: 10px 0;
+}
+
+.karta-obsah p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #cccccc;
+}
+
+.stitek {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.hlavni {
+    background-color: #e60073;
+    color: white;
+}
+
+.hlavni2 {
+    background-color: #10a5c0;
+    color: white;
+}
+
+.nepratelske {
+    background-color: #ff6600;
+    color: black;
+}
+
+.mechanika {
+    background-color: #e1ff00;
+    color: black;
+}
+
+.galerie-grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.galerie-grid img {
+    width: 32%;
+    min-width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.kviz-box {
+    background-color: #262626;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.tlacitka {
+    margin: 20px 0;
+}
+
+.tlacitka button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #383838;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tlacitka button:hover {
+    background-color: #e60073;
+}
+
+#vysledek {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.metacritic-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #333;
+}
+
+.hodnoceni-box {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.hodnoceni-box a {
+    color: #00d9ff;
+    text-decoration: none;
+}
+
+.hodnoceni-box a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0d0d0d;
+    color: #888888;
+    font-size: 14px;
+}
