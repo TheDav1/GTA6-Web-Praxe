@@ -1,1 +1,3 @@
-# GTA6-Web-Praxe
+# GTA6-Praxe
+
+Práce v předmětu Praxe
